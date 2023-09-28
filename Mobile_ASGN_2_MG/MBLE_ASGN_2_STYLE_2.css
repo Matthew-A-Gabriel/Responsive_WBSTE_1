@@ -1,0 +1,124 @@
+body{
+    background: linear-gradient(to right, orange,orange,grey);
+}
+
+.content_box{
+    padding: 5%;
+    font-size: 4vw;
+    font-family: arial;
+}
+
+.Direction{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5%;
+}
+
+h1{
+    text-align: center;
+    color:black ;
+    font-size: 6vw;
+    font-family: arial;
+}
+
+.Image_1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.Lambda{
+    width: 100%;
+    border-radius: 20%;
+    border: 0.75rem solid rgb(255, 128, 0);
+    background-color: black;
+}
+
+p{
+    text-align: justify;
+    color:black ;
+    margin: 5%;
+}
+
+button{
+    width: 100%;
+    font-size: 3vw;
+    padding: auto;
+    border: 0px solid black;
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+    background-color: unset;
+}
+
+
+.Return{
+    color: black;
+    text-shadow: 0px 0px 10px;
+}
+
+.Image_2{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.Rebelz{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (min-width:93rem) {
+    .content_box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .Image_1{
+        display: flex;
+        flex-wrap: wrap;
+        order: 0;
+        width: 40%;
+        float: left;
+        align-items: flex-start;
+        margin: 1rem;
+    }
+
+   .Text{
+        font-size: 3vw;
+        width: 50%;
+        align-self: flex-end;
+        float: right;
+        margin: 1rem;
+        order: 3;
+        flex-wrap: nowrap;
+        position: absolute;
+    }
+
+    .Image_2{
+        display: flex;
+        flex-wrap: wrap;
+        order: 2;
+        width: 40%;
+        float: left;
+        align-items: flex-start;
+        margin: 1rem;
+    }
+
+    .Direction{
+        width: 20%;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        order: 4;
+    }
+}

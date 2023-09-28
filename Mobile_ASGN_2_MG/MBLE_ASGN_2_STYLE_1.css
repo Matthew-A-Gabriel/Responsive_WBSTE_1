@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(to left, aqua,grey, orange);
+}
+
+.content_box {
+    padding: 5%;
+    font-size: 4vw;
+    font-family: arial;
+}
+
+.Direction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+
+h1{
+    text-align: center;
+    color:chartreuse ;
+    text-shadow: 0px 0px 5px;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+    color:chartreuse ;
+    text-shadow: 0px 0px 5px;
+    margin: 5%;
+}
+
+button{
+    width: 40%;
+    font-size: 3vw;
+    padding: auto;
+    border: 0px solid black;
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+    background-color: unset;
+}
+
+
+.Rebels{
+    color: orange;
+    text-shadow: 0px 0px 10px;
+}
+
+.Combine{
+    color:aqua;
+    text-shadow: 0px 0px 10px;
+}
+
+@media (min-width:93rem) {
+    p{
+        font-size: 3vw;
+    }
+
+    button{
+        font-size: 3vw;
+    }
+
+    .Direction{
+        justify-content: space-between;
+    }
+}
